@@ -1,0 +1,30 @@
+# Logs
+*.log
+logs/
+
+# Script state / user data
+state.json
+UserLookupTool/
+
+# License cache
+*.csv
+
+# PowerShell
+*.psm1.bak
+*.ps1.bak
+
+# Credentials / secrets (safety net)
+*.cred
+*.key
+*.secret
+*.token
+secrets.json
+credentials.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+*.code-workspace
